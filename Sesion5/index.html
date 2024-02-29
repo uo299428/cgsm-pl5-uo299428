@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Informe de prácticas de CGSM (2015-2016)</title>
+        <link rel="stylesheet" type="text/css" href="report.css">
+    </head>
+    <body>
+        <!-- Información general -->
+        <div id="head">
+            <table id="general">
+                <tr>
+                    <th class="header">Nombre:</th>
+                    <td>Ramsés Díaz Castro</td>                     
+                </tr>
+                <tr>
+                    <th>Práctica:</th>
+                    <td>4</td> 
+                </tr>
+            </table>
+        </div>
+        <div id="content" >
+            <h1>Memoria</h1>
+            <h2>Respuestas a preguntas</h2>
+            <h2>Pregunta 1:</h2>
+            <h3>¿Cuántas codificaciones de audio distintas puede utilizar el cliente para adaptarse a condiciones cambiantes de la red?</h3>
+                <p>En el manifiesto 1 el cliente tiene la posibilidad de usar 1 codificación de audio.
+                </p>
+                <p>En el manifiesto 2 el cliente tiene la posibilidad de usar 1 codificación de audio.
+                </p>
+            <h2>Pregunta 2:</h2>
+            <h3>¿Y de vídeo?</h3>
+                <p>En el manifiesto 1 el cliente tiene la posibilidad de usar 4 codificaciones de video distintas.
+                </p>
+                <p>En el manifiesto 2 el cliente tiene la posibilidad de usar 3 codificaciones de video distintas.
+                </p>
+            <h2>Pregunta 3:</h2>
+            <h3>¿Cuántas resoluciones de vídeo distintas puede usar el cliente? Indica cuáles.</h3>
+                <p>En el manifiesto 1 el cliente puede usar sólo 1 resolución:
+                    <ol><li>854x480 píxeles</li></ol>
+                </p>
+                <p>En el manifiesto 2 el cliente tiene la posibilidad de usar 3 resoluciones diferentes:
+                    <ol>
+                        <li>512x288  píxeles</li>
+                        <li>766x432 píxeles</li>
+                        <li>1280x720 píxeles</li>
+                    </ol>
+                </p>
+            <h2>Descripción de la práctica</h2>
+                <p>Objetivo de la práctica en general: Aprender a preparar un vídeo para distribuirlo mediante streaming.
+                    Para ello es necesario extraer el audio y el video en diferentes calidades para que se pueda adaptar
+                    a las diferentes condiciones del cliente, tanto de red como del navegador entre otras. 
+                    Crear el manifiesto con los archivos de audio y video correspondientes.
+                </p>
+            <h2>Ejercicio 1</h2>
+        <h2>Descripción de la práctica</h2>
+            <p>Objetivo del Ejercicio: Utilizar la biblioteca dash.all.min.js para mostrar un video generado a partir de un manifiesto y los diferentes archivos de audio y video. 
+            </p>
+                <iframe class="container" style="height: 480px; width: -webkit-fill-available;" src="prac5-1.html">                    
+                </iframe>
+            <h2>Ejercicio 2</h2>
+            <h2>Descripción de la práctica</h2>
+                <p>Objetivo del Ejercicio: Lograr que la textura utilizada en la práctica 3 se obtenga de un vídeo servido con MPEG-DASH. 
+                </p>
+                <iframe class="container" style="height: 480px; width: -webkit-fill-available;" src="prac5-2.html">
+                    Escena 2
+                </iframe>
+            
+
+            <h2>Dificultades encontradas</h2>
+            Se encontraron algunas dificultades a la hora de mostrar el video en el ejercio 5-1 ya que al parecer se enviaba a cargar antes de que este estuviera listo.
+        </div>
+    </body>
+</html>

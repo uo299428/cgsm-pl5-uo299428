@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic template for the CGSM labs</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script  src="src/dash.all.min.js"></script>
+    <!-- <script type="module" defer src="dist/pract5-1.js"></script> -->
+    
+</head>
+<body>
+    <video id="player" controls>
+    </video>
+    <script refer >
+        const url = "manifest/sintel_trailer_v4.mpd";
+        const player = dashjs.MediaPlayer().create();
+        var videoElement = document.getElementById('player');
+        player.initialize(videoElement, url, true);
+    </script>
+</body>
+</html>
